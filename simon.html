@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Says Game</title>
+    <!-- google fonts preconnect link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css file link -->
+    <link rel="stylesheet" href="simon.css" />
+  </head>
+  <body>
+    <h1>Simon Says Game</h1>
+    <h2>Press any key to Start the game</h2>
+
+    <!-- button's container -->
+    <div class="btn-container">
+      <!-- line one -->
+      <div class="line-one">
+        <div class="btn red" type="button" id="red"></div>
+        <div class="btn yellow" type="button" id="yellow"></div>
+      </div>
+
+      <!-- line two -->
+      <div class="line-two">
+        <div class="btn green" type="button" id="green"></div>
+        <div class="btn blue" type="button" id="blue"></div>
+      </div>
+    </div>
+
+    <!-- js file link -->
+    <script src="simon.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+body {
+  font-family: "Overpass", sans-serif;
+  text-align: center;
+}
+
+/* all buttons i.e. red, blue, yellow, green */
+.btn {
+  height: 150px;
+  width: 150px;
+  border-radius: 20%;
+  border: 10px solid black;
+  margin: 1.5rem;
+}
+
+/* container of all the buttons */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.807);
+  width: 450px;
+  margin: auto;
+  border-radius: 10%;
+}
+
+.red {
+  background-color: rgb(255, 40, 40);
+}
+
+.yellow {
+  background-color: rgb(251, 251, 38);
+}
+
+.green {
+  background-color: rgb(43, 255, 43);
+}
+
+.blue {
+  background-color: rgb(33, 33, 255);
+}
+
+/* apply when js = call */
+.flash {
+  background-color: white;
+}
+
+.userflash {
+  background-color: green;
+}
