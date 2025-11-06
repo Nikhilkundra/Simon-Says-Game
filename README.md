@@ -25,12 +25,7 @@ Follow the color sequence shown by the game — each round adds a new step!
 
 ## 🚀 Run the Game
 
-1. Clone or download the repo:
-
-   ```bash
-   git clone https://github.com/your-username/simon-says-game.git
-   ```
-2. Open `simon.html` in your browser and play!
+1. Open `simon.html` in your browser and play!
 
 ---
 
